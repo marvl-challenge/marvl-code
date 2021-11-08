@@ -1,0 +1,18 @@
+TASK12:
+  name: NLVR2
+  type: VL-binary-classifier
+  num_labels: 2
+  loss: BCEWithLogitLoss
+  process: nlvr
+  task_id: 12
+  dataroot: /home/projects/ku_00062/data/nlvr2/annotations
+  features_h5path1: /home/projects/ku_00062/data/nlvr2/resnet101_faster_rcnn_genome_imgfeats/volta/nlvr2_feat.lmdb
+  features_h5path2: ''
+  train_annotations_jsonpath: ''
+  val_annotations_jsonpath: ''
+  max_seq_length: 38
+  max_region_num: 36
+  batch_size: 64
+  eval_batch_size: 512
+  train_split: ''
+  val_split: test
