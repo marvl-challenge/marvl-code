@@ -10,7 +10,7 @@ TASKS_CONFIG=xling_test_marvl
 FEAT_PATH=/home/projects/ku_00062/data/marvl/features/marvl-${lang}_boxes36.lmdb
 PRETRAINED=/home/projects/ku_00062/checkpoints/marvl/${MODEL}/${TRTASK}_${MODEL_CONFIG}/pytorch_model_best.bin
 
-source /home/projects/ku_00062/envs/mlvr/bin/activate
+source /home/projects/ku_00062/envs/marvl/bin/activate
 
 here=$(pwd)
 cd ../../../volta

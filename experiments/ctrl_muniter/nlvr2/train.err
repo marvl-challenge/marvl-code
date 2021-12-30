@@ -1,8 +1,8 @@
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
 
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
 
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
 
 05/02/2021 10:29:30 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
 05/02/2021 10:29:31 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 32
@@ -455,7 +455,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 10:30:11 - INFO - __main__ -   >> # TrainableParams:       	183.57	M
 05/02/2021 10:30:11 - INFO - __main__ -   >> # NonTrainableParams:    	0.00	M
 05/02/2021 10:30:11 - INFO - __main__ -   >> # TotalParams:           	183.57	M
-Epoch:   0%|          | 0/20 [00:00<?, ?it/s]05/02/2021 10:31:28 - INFO - volta.train_utils -   [NLVR2]: iter 40 Ep: 0.01 loss 0.214 score 0.245 lr 1.94444e-08 
+
+Epoch:   0%|          | 0/20 [00:00<?, ?it/s]05/02/2021 10:31:28 - INFO - volta.train_utils -   [NLVR2]: iter 40 Ep: 0.01 loss 0.214 score 0.245 lr 1.94444e-08 
 05/02/2021 10:32:31 - INFO - volta.train_utils -   [NLVR2]: iter 80 Ep: 0.03 loss 0.212 score 0.242 lr 5.64815e-08 
 05/02/2021 10:33:21 - INFO - volta.train_utils -   [NLVR2]: iter 120 Ep: 0.04 loss 0.212 score 0.247 lr 9.35185e-08 
 05/02/2021 10:34:22 - INFO - volta.train_utils -   [NLVR2]: iter 160 Ep: 0.06 loss 0.206 score 0.250 lr 1.30556e-07 
@@ -523,7 +524,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 11:26:02 - INFO - volta.train_utils -   [NLVR2]: iter 2640 Ep: 0.98 loss 0.163 score 0.316 lr 2.42685e-06 
 05/02/2021 11:26:50 - INFO - volta.train_utils -   [NLVR2]: iter 2680 Ep: 0.99 loss 0.163 score 0.311 lr 2.46389e-06 
 05/02/2021 11:27:07 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:   5%|▌         | 1/20 [57:07<18:05:16, 3427.17s/it]05/02/2021 11:43:10 - INFO - volta.train_utils -   Eval task TASK12 on iteration 2700 
+
+Epoch:   5%|▌         | 1/20 [57:07<18:05:16, 3427.17s/it]05/02/2021 11:43:10 - INFO - volta.train_utils -   Eval task TASK12 on iteration 2700 
 05/02/2021 11:43:10 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.622 score 64.366 
 05/02/2021 11:43:10 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 11:43:46 - INFO - volta.train_utils -   [NLVR2]: iter 2740 Ep: 1.01 loss 0.153 score 0.322 lr 2.51019e-06 
@@ -594,7 +596,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 12:33:40 - INFO - volta.train_utils -   [NLVR2]: iter 5340 Ep: 1.98 loss 0.146 score 0.346 lr 4.92685e-06 
 05/02/2021 12:34:28 - INFO - volta.train_utils -   [NLVR2]: iter 5380 Ep: 1.99 loss 0.157 score 0.317 lr 4.96389e-06 
 05/02/2021 12:34:41 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  10%|█         | 2/20 [2:04:40<18:04:31, 3615.08s/it]05/02/2021 12:51:13 - INFO - volta.train_utils -   Eval task TASK12 on iteration 5400 
+
+Epoch:  10%|█         | 2/20 [2:04:40<18:04:31, 3615.08s/it]05/02/2021 12:51:13 - INFO - volta.train_utils -   Eval task TASK12 on iteration 5400 
 05/02/2021 12:51:13 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.582 score 68.419 
 05/02/2021 12:51:13 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 12:51:51 - INFO - volta.train_utils -   [NLVR2]: iter 5440 Ep: 2.01 loss 0.146 score 0.337 lr 4.99578e-06 
@@ -665,7 +668,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 13:39:41 - INFO - volta.train_utils -   [NLVR2]: iter 8040 Ep: 2.98 loss 0.126 score 0.362 lr 4.73035e-06 
 05/02/2021 13:40:30 - INFO - volta.train_utils -   [NLVR2]: iter 8080 Ep: 2.99 loss 0.132 score 0.365 lr 4.72623e-06 
 05/02/2021 13:40:42 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  15%|█▌        | 3/20 [3:10:41<17:33:40, 3718.87s/it]05/02/2021 13:56:55 - INFO - volta.train_utils -   Eval task TASK12 on iteration 8100 
+
+Epoch:  15%|█▌        | 3/20 [3:10:41<17:33:40, 3718.87s/it]05/02/2021 13:56:55 - INFO - volta.train_utils -   Eval task TASK12 on iteration 8100 
 05/02/2021 13:56:55 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.558 score 70.653 
 05/02/2021 13:56:55 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 13:57:31 - INFO - volta.train_utils -   [NLVR2]: iter 8140 Ep: 3.01 loss 0.124 score 0.372 lr 4.72109e-06 
@@ -736,7 +740,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 14:40:03 - INFO - volta.train_utils -   [NLVR2]: iter 10740 Ep: 3.98 loss 0.116 score 0.379 lr 4.45257e-06 
 05/02/2021 14:40:46 - INFO - volta.train_utils -   [NLVR2]: iter 10780 Ep: 3.99 loss 0.121 score 0.378 lr 4.44846e-06 
 05/02/2021 14:40:57 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  20%|██        | 4/20 [4:10:59<16:23:36, 3688.50s/it]05/02/2021 14:55:56 - INFO - volta.train_utils -   Eval task TASK12 on iteration 10800 
+
+Epoch:  20%|██        | 4/20 [4:10:59<16:23:36, 3688.50s/it]05/02/2021 14:55:56 - INFO - volta.train_utils -   Eval task TASK12 on iteration 10800 
 05/02/2021 14:55:56 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.564 score 73.074 
 05/02/2021 14:55:56 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 14:56:29 - INFO - volta.train_utils -   [NLVR2]: iter 10840 Ep: 4.01 loss 0.111 score 0.396 lr 4.44331e-06 
@@ -807,7 +812,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 15:45:05 - INFO - volta.train_utils -   [NLVR2]: iter 13440 Ep: 4.98 loss 0.098 score 0.393 lr 4.17479e-06 
 05/02/2021 15:45:45 - INFO - volta.train_utils -   [NLVR2]: iter 13480 Ep: 4.99 loss 0.107 score 0.395 lr 4.17068e-06 
 05/02/2021 15:46:03 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  25%|██▌       | 5/20 [5:16:01<15:38:10, 3752.69s/it]05/02/2021 16:01:20 - INFO - volta.train_utils -   Eval task TASK12 on iteration 13500 
+
+Epoch:  25%|██▌       | 5/20 [5:16:01<15:38:10, 3752.69s/it]05/02/2021 16:01:20 - INFO - volta.train_utils -   Eval task TASK12 on iteration 13500 
 05/02/2021 16:01:20 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.581 score 72.673 
 05/02/2021 16:01:40 - INFO - volta.train_utils -   [NLVR2]: iter 13540 Ep: 5.01 loss 0.100 score 0.400 lr 4.16553e-06 
 05/02/2021 16:02:17 - INFO - volta.train_utils -   [NLVR2]: iter 13580 Ep: 5.03 loss 0.094 score 0.421 lr 4.16039e-06 
@@ -877,7 +883,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 16:50:46 - INFO - volta.train_utils -   [NLVR2]: iter 16140 Ep: 5.98 loss 0.091 score 0.409 lr 3.89702e-06 
 05/02/2021 16:51:33 - INFO - volta.train_utils -   [NLVR2]: iter 16180 Ep: 5.99 loss 0.093 score 0.410 lr 3.8929e-06 
 05/02/2021 16:51:47 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  30%|███       | 6/20 [6:21:46<14:49:04, 3810.35s/it]05/02/2021 17:07:04 - INFO - volta.train_utils -   Eval task TASK12 on iteration 16200 
+
+Epoch:  30%|███       | 6/20 [6:21:46<14:49:04, 3810.35s/it]05/02/2021 17:07:04 - INFO - volta.train_utils -   Eval task TASK12 on iteration 16200 
 05/02/2021 17:07:04 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.630 score 73.761 
 05/02/2021 17:07:04 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 17:07:38 - INFO - volta.train_utils -   [NLVR2]: iter 16240 Ep: 6.01 loss 0.082 score 0.425 lr 3.88776e-06 
@@ -948,7 +955,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 17:55:32 - INFO - volta.train_utils -   [NLVR2]: iter 18840 Ep: 6.98 loss 0.078 score 0.420 lr 3.61924e-06 
 05/02/2021 17:56:10 - INFO - volta.train_utils -   [NLVR2]: iter 18880 Ep: 6.99 loss 0.084 score 0.416 lr 3.61512e-06 
 05/02/2021 17:56:22 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  35%|███▌      | 7/20 [7:26:21<13:49:46, 3829.69s/it]05/02/2021 18:11:18 - INFO - volta.train_utils -   Eval task TASK12 on iteration 18900 
+
+Epoch:  35%|███▌      | 7/20 [7:26:21<13:49:46, 3829.69s/it]05/02/2021 18:11:18 - INFO - volta.train_utils -   Eval task TASK12 on iteration 18900 
 05/02/2021 18:11:18 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.663 score 73.546 
 05/02/2021 18:11:38 - INFO - volta.train_utils -   [NLVR2]: iter 18940 Ep: 7.01 loss 0.073 score 0.428 lr 3.60998e-06 
 05/02/2021 18:12:12 - INFO - volta.train_utils -   [NLVR2]: iter 18980 Ep: 7.03 loss 0.071 score 0.434 lr 3.60484e-06 
@@ -1018,7 +1026,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 18:58:24 - INFO - volta.train_utils -   [NLVR2]: iter 21540 Ep: 7.98 loss 0.074 score 0.431 lr 3.34146e-06 
 05/02/2021 18:59:02 - INFO - volta.train_utils -   [NLVR2]: iter 21580 Ep: 7.99 loss 0.082 score 0.430 lr 3.33735e-06 
 05/02/2021 18:59:18 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  40%|████      | 8/20 [8:29:19<12:42:49, 3814.13s/it]05/02/2021 19:14:11 - INFO - volta.train_utils -   Eval task TASK12 on iteration 21600 
+
+Epoch:  40%|████      | 8/20 [8:29:19<12:42:49, 3814.13s/it]05/02/2021 19:14:11 - INFO - volta.train_utils -   Eval task TASK12 on iteration 21600 
 05/02/2021 19:14:11 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.671 score 73.976 
 05/02/2021 19:14:11 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 19:14:44 - INFO - volta.train_utils -   [NLVR2]: iter 21640 Ep: 8.01 loss 0.072 score 0.429 lr 3.3322e-06 
@@ -1089,7 +1098,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 19:58:42 - INFO - volta.train_utils -   [NLVR2]: iter 24240 Ep: 8.98 loss 0.078 score 0.436 lr 3.06368e-06 
 05/02/2021 19:59:30 - INFO - volta.train_utils -   [NLVR2]: iter 24280 Ep: 8.99 loss 0.066 score 0.441 lr 3.05957e-06 
 05/02/2021 19:59:44 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  45%|████▌     | 9/20 [9:29:44<11:28:51, 3757.38s/it]05/02/2021 20:15:15 - INFO - volta.train_utils -   Eval task TASK12 on iteration 24300 
+
+Epoch:  45%|████▌     | 9/20 [9:29:44<11:28:51, 3757.38s/it]05/02/2021 20:15:15 - INFO - volta.train_utils -   Eval task TASK12 on iteration 24300 
 05/02/2021 20:15:15 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.761 score 73.503 
 05/02/2021 20:15:35 - INFO - volta.train_utils -   [NLVR2]: iter 24340 Ep: 9.01 loss 0.057 score 0.442 lr 3.05442e-06 
 05/02/2021 20:16:16 - INFO - volta.train_utils -   [NLVR2]: iter 24380 Ep: 9.03 loss 0.070 score 0.446 lr 3.04928e-06 
@@ -1159,7 +1169,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 21:04:53 - INFO - volta.train_utils -   [NLVR2]: iter 26940 Ep: 9.98 loss 0.065 score 0.440 lr 2.78591e-06 
 05/02/2021 21:05:50 - INFO - volta.train_utils -   [NLVR2]: iter 26980 Ep: 9.99 loss 0.071 score 0.440 lr 2.78179e-06 
 05/02/2021 21:06:02 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  50%|█████     | 10/20 [10:36:01<10:37:12, 3823.22s/it]05/02/2021 21:23:30 - INFO - volta.train_utils -   Eval task TASK12 on iteration 27000 
+
+Epoch:  50%|█████     | 10/20 [10:36:01<10:37:12, 3823.22s/it]05/02/2021 21:23:30 - INFO - volta.train_utils -   Eval task TASK12 on iteration 27000 
 05/02/2021 21:23:30 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.782 score 74.506 
 05/02/2021 21:23:30 - INFO - __main__ -   ** ** * Saving model * ** ** 
 05/02/2021 21:24:05 - INFO - volta.train_utils -   [NLVR2]: iter 27040 Ep: 10.01 loss 0.057 score 0.450 lr 2.77665e-06 
@@ -1230,7 +1241,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 22:25:41 - INFO - volta.train_utils -   [NLVR2]: iter 29640 Ep: 10.98 loss 0.061 score 0.445 lr 2.50813e-06 
 05/02/2021 22:26:30 - INFO - volta.train_utils -   [NLVR2]: iter 29680 Ep: 10.99 loss 0.061 score 0.452 lr 2.50401e-06 
 05/02/2021 22:26:45 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  55%|█████▌    | 11/20 [11:56:44<10:19:22, 4129.21s/it]05/02/2021 22:40:06 - INFO - volta.train_utils -   Eval task TASK12 on iteration 29700 
+
+Epoch:  55%|█████▌    | 11/20 [11:56:44<10:19:22, 4129.21s/it]05/02/2021 22:40:06 - INFO - volta.train_utils -   Eval task TASK12 on iteration 29700 
 05/02/2021 22:40:06 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.858 score 74.033 
 05/02/2021 22:40:35 - INFO - volta.train_utils -   [NLVR2]: iter 29740 Ep: 11.01 loss 0.047 score 0.461 lr 2.49887e-06 
 05/02/2021 22:41:21 - INFO - volta.train_utils -   [NLVR2]: iter 29780 Ep: 11.03 loss 0.038 score 0.460 lr 2.49372e-06 
@@ -1300,7 +1312,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/02/2021 23:36:05 - INFO - volta.train_utils -   [NLVR2]: iter 32340 Ep: 11.98 loss 0.045 score 0.460 lr 2.23035e-06 
 05/02/2021 23:36:49 - INFO - volta.train_utils -   [NLVR2]: iter 32380 Ep: 11.99 loss 0.048 score 0.454 lr 2.22623e-06 
 05/02/2021 23:37:04 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  60%|██████    | 12/20 [13:07:04<9:14:13, 4156.63s/it] 05/02/2021 23:53:57 - INFO - volta.train_utils -   Eval task TASK12 on iteration 32400 
+
+Epoch:  60%|██████    | 12/20 [13:07:04<9:14:13, 4156.63s/it] 05/02/2021 23:53:57 - INFO - volta.train_utils -   Eval task TASK12 on iteration 32400 
 05/02/2021 23:53:57 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.929 score 73.475 
 05/02/2021 23:54:21 - INFO - volta.train_utils -   [NLVR2]: iter 32440 Ep: 12.01 loss 0.040 score 0.466 lr 2.22109e-06 
 05/02/2021 23:55:06 - INFO - volta.train_utils -   [NLVR2]: iter 32480 Ep: 12.03 loss 0.048 score 0.462 lr 2.21595e-06 
@@ -1370,7 +1383,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 00:54:03 - INFO - volta.train_utils -   [NLVR2]: iter 35040 Ep: 12.98 loss 0.050 score 0.462 lr 1.95257e-06 
 05/03/2021 00:55:00 - INFO - volta.train_utils -   [NLVR2]: iter 35080 Ep: 12.99 loss 0.041 score 0.460 lr 1.94846e-06 
 05/03/2021 00:55:14 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  65%|██████▌   | 13/20 [14:25:13<8:23:32, 4316.13s/it]05/03/2021 01:13:15 - INFO - volta.train_utils -   Eval task TASK12 on iteration 35100 
+
+Epoch:  65%|██████▌   | 13/20 [14:25:13<8:23:32, 4316.13s/it]05/03/2021 01:13:15 - INFO - volta.train_utils -   Eval task TASK12 on iteration 35100 
 05/03/2021 01:13:15 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.934 score 74.062 
 05/03/2021 01:13:39 - INFO - volta.train_utils -   [NLVR2]: iter 35140 Ep: 13.01 loss 0.034 score 0.470 lr 1.94331e-06 
 05/03/2021 01:14:39 - INFO - volta.train_utils -   [NLVR2]: iter 35180 Ep: 13.03 loss 0.042 score 0.468 lr 1.93817e-06 
@@ -1440,7 +1454,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 02:13:12 - INFO - volta.train_utils -   [NLVR2]: iter 37740 Ep: 13.98 loss 0.044 score 0.460 lr 1.67479e-06 
 05/03/2021 02:14:01 - INFO - volta.train_utils -   [NLVR2]: iter 37780 Ep: 13.99 loss 0.036 score 0.463 lr 1.67068e-06 
 05/03/2021 02:14:18 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  70%|███████   | 14/20 [15:44:16<7:24:25, 4444.29s/it]05/03/2021 02:33:17 - INFO - volta.train_utils -   Eval task TASK12 on iteration 37800 
+
+Epoch:  70%|███████   | 14/20 [15:44:16<7:24:25, 4444.29s/it]05/03/2021 02:33:17 - INFO - volta.train_utils -   Eval task TASK12 on iteration 37800 
 05/03/2021 02:33:17 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.012 score 74.277 
 05/03/2021 02:33:40 - INFO - volta.train_utils -   [NLVR2]: iter 37840 Ep: 14.01 loss 0.040 score 0.469 lr 1.66553e-06 
 05/03/2021 02:34:24 - INFO - volta.train_utils -   [NLVR2]: iter 37880 Ep: 14.03 loss 0.036 score 0.469 lr 1.66039e-06 
@@ -1510,7 +1525,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 03:40:09 - INFO - volta.train_utils -   [NLVR2]: iter 40440 Ep: 14.98 loss 0.029 score 0.478 lr 1.39702e-06 
 05/03/2021 03:40:52 - INFO - volta.train_utils -   [NLVR2]: iter 40480 Ep: 14.99 loss 0.037 score 0.470 lr 1.3929e-06 
 05/03/2021 03:41:09 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  75%|███████▌  | 15/20 [17:11:09<6:29:34, 4674.83s/it]05/03/2021 03:59:51 - INFO - volta.train_utils -   Eval task TASK12 on iteration 40500 
+
+Epoch:  75%|███████▌  | 15/20 [17:11:09<6:29:34, 4674.83s/it]05/03/2021 03:59:51 - INFO - volta.train_utils -   Eval task TASK12 on iteration 40500 
 05/03/2021 03:59:51 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.085 score 74.076 
 05/03/2021 04:00:17 - INFO - volta.train_utils -   [NLVR2]: iter 40540 Ep: 15.01 loss 0.027 score 0.476 lr 1.38776e-06 
 05/03/2021 04:01:14 - INFO - volta.train_utils -   [NLVR2]: iter 40580 Ep: 15.03 loss 0.030 score 0.472 lr 1.38261e-06 
@@ -1580,7 +1596,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 04:58:13 - INFO - volta.train_utils -   [NLVR2]: iter 43140 Ep: 15.98 loss 0.031 score 0.472 lr 1.11924e-06 
 05/03/2021 04:59:06 - INFO - volta.train_utils -   [NLVR2]: iter 43180 Ep: 15.99 loss 0.032 score 0.472 lr 1.11512e-06 
 05/03/2021 04:59:20 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  80%|████████  | 16/20 [18:29:18<5:11:56, 4679.20s/it]05/03/2021 05:17:28 - INFO - volta.train_utils -   Eval task TASK12 on iteration 43200 
+
+Epoch:  80%|████████  | 16/20 [18:29:18<5:11:56, 4679.20s/it]05/03/2021 05:17:28 - INFO - volta.train_utils -   Eval task TASK12 on iteration 43200 
 05/03/2021 05:17:28 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.112 score 74.105 
 05/03/2021 05:17:53 - INFO - volta.train_utils -   [NLVR2]: iter 43240 Ep: 16.01 loss 0.037 score 0.474 lr 1.10998e-06 
 05/03/2021 05:18:48 - INFO - volta.train_utils -   [NLVR2]: iter 43280 Ep: 16.03 loss 0.028 score 0.474 lr 1.10484e-06 
@@ -1650,7 +1667,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 06:18:55 - INFO - volta.train_utils -   [NLVR2]: iter 45840 Ep: 16.98 loss 0.027 score 0.474 lr 8.41461e-07 
 05/03/2021 06:19:34 - INFO - volta.train_utils -   [NLVR2]: iter 45880 Ep: 16.99 loss 0.033 score 0.471 lr 8.37346e-07 
 05/03/2021 06:19:52 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  85%|████████▌ | 17/20 [19:49:51<3:56:15, 4725.13s/it]05/03/2021 06:37:00 - INFO - volta.train_utils -   Eval task TASK12 on iteration 45900 
+
+Epoch:  85%|████████▌ | 17/20 [19:49:51<3:56:15, 4725.13s/it]05/03/2021 06:37:00 - INFO - volta.train_utils -   Eval task TASK12 on iteration 45900 
 05/03/2021 06:37:00 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.153 score 73.990 
 05/03/2021 06:37:21 - INFO - volta.train_utils -   [NLVR2]: iter 45940 Ep: 17.01 loss 0.026 score 0.474 lr 8.32202e-07 
 05/03/2021 06:38:07 - INFO - volta.train_utils -   [NLVR2]: iter 45980 Ep: 17.03 loss 0.024 score 0.478 lr 8.27058e-07 
@@ -1720,7 +1738,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 07:34:14 - INFO - volta.train_utils -   [NLVR2]: iter 48540 Ep: 17.98 loss 0.030 score 0.479 lr 5.63683e-07 
 05/03/2021 07:35:01 - INFO - volta.train_utils -   [NLVR2]: iter 48580 Ep: 17.99 loss 0.029 score 0.476 lr 5.59568e-07 
 05/03/2021 07:35:13 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  90%|█████████ | 18/20 [21:05:11<2:35:27, 4663.81s/it]05/03/2021 07:53:23 - INFO - volta.train_utils -   Eval task TASK12 on iteration 48600 
+
+Epoch:  90%|█████████ | 18/20 [21:05:11<2:35:27, 4663.81s/it]05/03/2021 07:53:23 - INFO - volta.train_utils -   Eval task TASK12 on iteration 48600 
 05/03/2021 07:53:23 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.201 score 73.890 
 05/03/2021 07:53:46 - INFO - volta.train_utils -   [NLVR2]: iter 48640 Ep: 18.01 loss 0.031 score 0.476 lr 5.54424e-07 
 05/03/2021 07:54:33 - INFO - volta.train_utils -   [NLVR2]: iter 48680 Ep: 18.03 loss 0.022 score 0.483 lr 5.4928e-07 
@@ -1790,7 +1809,8 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 08:52:37 - INFO - volta.train_utils -   [NLVR2]: iter 51240 Ep: 18.98 loss 0.028 score 0.478 lr 2.85905e-07 
 05/03/2021 08:53:32 - INFO - volta.train_utils -   [NLVR2]: iter 51280 Ep: 18.99 loss 0.021 score 0.484 lr 2.8179e-07 
 05/03/2021 08:53:47 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch:  95%|█████████▌| 19/20 [22:23:46<1:17:59, 4679.03s/it]05/03/2021 09:11:42 - INFO - volta.train_utils -   Eval task TASK12 on iteration 51300 
+
+Epoch:  95%|█████████▌| 19/20 [22:23:46<1:17:59, 4679.03s/it]05/03/2021 09:11:42 - INFO - volta.train_utils -   Eval task TASK12 on iteration 51300 
 05/03/2021 09:11:42 - INFO - volta.train_utils -   Validation [NLVR2]: loss 1.219 score 73.732 
 05/03/2021 09:12:07 - INFO - volta.train_utils -   [NLVR2]: iter 51340 Ep: 19.01 loss 0.021 score 0.481 lr 2.76646e-07 
 05/03/2021 09:13:05 - INFO - volta.train_utils -   [NLVR2]: iter 51380 Ep: 19.03 loss 0.026 score 0.479 lr 2.71502e-07 
@@ -1860,5 +1880,6 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/03/2021 10:15:12 - INFO - volta.train_utils -   [NLVR2]: iter 53940 Ep: 19.98 loss 0.017 score 0.481 lr 8.12757e-09 
 05/03/2021 10:16:03 - INFO - volta.train_utils -   [NLVR2]: iter 53980 Ep: 19.99 loss 0.026 score 0.476 lr 4.01235e-09 
 05/03/2021 10:16:20 - INFO - __main__ -   ** ** * Saving model * ** ** 
-Epoch: 100%|██████████| 20/20 [23:46:20<00:00, 4761.42s/it]  
+
+Epoch: 100%|██████████| 20/20 [23:46:20<00:00, 4761.42s/it]  
 train.dtu.sh: line 24: /home/people/emabug: Is a directory

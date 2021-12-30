@@ -1,8 +1,8 @@
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/callbacks/hooks.py:17: The name tf.train.SessionRunHook is deprecated. Please use tf.estimator.SessionRunHook instead.
 
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/tfutils/optimizer.py:18: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
 
-WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
+WARNING:tensorflow:From /home/projects/ku_00062/envs/marvl/lib/python3.6/site-packages/tensorpack/tfutils/sesscreate.py:20: The name tf.train.SessionCreator is deprecated. Please use tf.compat.v1.train.SessionCreator instead.
 
 05/09/2021 23:30:05 - INFO - __main__ -   device: cuda n_gpu: 1, distributed training: False
 05/09/2021 23:30:05 - INFO - volta.task_utils -   Loading NLVR2 Dataset with batch size 512
@@ -10,7 +10,22 @@ WARNING:tensorflow:From /home/projects/ku_00062/envs/mlvr/lib/python3.6/site-pac
 05/09/2021 23:30:07 - INFO - volta.train_utils -   logging file at: pytorch_model_best.bin-
 05/09/2021 23:30:07 - INFO - volta.utils -   loading weights file /home/projects/ku_00062/checkpoints/mlvr/ctrl_lxmert/NLVR2_ctrl_lxmert/pytorch_model_best.bin
 05/09/2021 23:30:13 - INFO - volta.utils -   
-  0%|          | 0/14 [00:00<?, ?it/s]  7%|▋         | 1/14 [00:06<01:24,  6.50s/it] 14%|█▍        | 2/14 [00:08<01:00,  5.04s/it] 21%|██▏       | 3/14 [00:09<00:44,  4.01s/it] 29%|██▊       | 4/14 [00:11<00:32,  3.30s/it] 36%|███▌      | 5/14 [00:12<00:25,  2.79s/it] 43%|████▎     | 6/14 [00:14<00:19,  2.44s/it] 50%|█████     | 7/14 [00:16<00:15,  2.20s/it] 57%|█████▋    | 8/14 [00:17<00:12,  2.03s/it] 64%|██████▍   | 9/14 [00:19<00:09,  1.91s/it] 71%|███████▏  | 10/14 [00:21<00:07,  1.82s/it] 79%|███████▊  | 11/14 [00:22<00:05,  1.76s/it] 86%|████████▌ | 12/14 [00:24<00:03,  1.72s/it] 93%|█████████▎| 13/14 [00:25<00:01,  1.69s/it]100%|██████████| 14/14 [00:26<00:00,  1.48s/it]
+
+  0%|          | 0/14 [00:00<?, ?it/s]
+  7%|▋         | 1/14 [00:06<01:24,  6.50s/it]
+ 14%|█▍        | 2/14 [00:08<01:00,  5.04s/it]
+ 21%|██▏       | 3/14 [00:09<00:44,  4.01s/it]
+ 29%|██▊       | 4/14 [00:11<00:32,  3.30s/it]
+ 36%|███▌      | 5/14 [00:12<00:25,  2.79s/it]
+ 43%|████▎     | 6/14 [00:14<00:19,  2.44s/it]
+ 50%|█████     | 7/14 [00:16<00:15,  2.20s/it]
+ 57%|█████▋    | 8/14 [00:17<00:12,  2.03s/it]
+ 64%|██████▍   | 9/14 [00:19<00:09,  1.91s/it]
+ 71%|███████▏  | 10/14 [00:21<00:07,  1.82s/it]
+ 79%|███████▊  | 11/14 [00:22<00:05,  1.76s/it]
+ 86%|████████▌ | 12/14 [00:24<00:03,  1.72s/it]
+ 93%|█████████▎| 13/14 [00:25<00:01,  1.69s/it]
+100%|██████████| 14/14 [00:26<00:00,  1.48s/it]
 05/09/2021 23:30:44 - INFO - volta.train_utils -   Eval task TASK12 on iteration 0 
 05/09/2021 23:30:44 - INFO - volta.train_utils -   Validation [NLVR2]: loss 0.807 score 71.092 
 05/09/2021 23:30:44 - INFO - __main__ -   Consistency: 34.071464519375944

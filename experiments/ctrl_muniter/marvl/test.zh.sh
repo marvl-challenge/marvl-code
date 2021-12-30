@@ -11,7 +11,7 @@ FEAT_PATH=/home/projects/ku_00062/data/marvl/features/marvl-zh_boxes36.lmdb
 PRETRAINED=/home/projects/ku_00062/checkpoints/marvl/${MODEL}/${TRTASK}_${MODEL_CONFIG}/pytorch_model_best.bin
 OUTPUT_DIR=/home/projects/ku_00062/results/marvl/${MODEL}/${TRTASK}_${MODEL_CONFIG}/$TETASK/test
 
-source /home/projects/ku_00062/envs/mlvr/bin/activate
+source /home/projects/ku_00062/envs/marvl/bin/activate
 
 cd ../../../volta
 python eval_task.py \

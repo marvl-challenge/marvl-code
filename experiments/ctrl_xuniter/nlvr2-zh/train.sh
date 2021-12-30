@@ -8,7 +8,7 @@ PRETRAINED=/home/projects/ku_00062/checkpoints/marvl/${MODEL}/conceptual_caption
 OUTPUT_DIR=/home/projects/ku_00062/checkpoints/marvl/${MODEL}
 LOGGING_DIR=/home/projects/ku_00062/logs/marvl/${MODEL_CONFIG}
 
-source /home/projects/ku_00062/envs/mlvr/bin/activate
+source /home/projects/ku_00062/envs/marvl/bin/activate
 
 cd ../../../volta
 python train_task.py \
